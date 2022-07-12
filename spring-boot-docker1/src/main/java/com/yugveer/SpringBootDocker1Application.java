@@ -11,7 +11,7 @@ public class SpringBootDocker1Application {
 
 	@GetMapping("/")
 	public String getMessage() {
-		return "WELCOME IN YUGVEER-IT";
+		return "WELCOME IN Ashok-IT"; 
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(SpringBootDocker1Application.class, args);
